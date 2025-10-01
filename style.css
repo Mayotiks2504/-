@@ -22,12 +22,20 @@ body {
     font-size: 16px;
 }
 .contact {
-    display: block;
+display: block;
 }
+
+.contact-info{
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
 .phone-number {
     font-weight: bold;
     font-size: 18px;
     display: block;
+    color: #140A32;
+    text-decoration: none;
 }
 
 .seacrh{
@@ -142,3 +150,54 @@ body {
     font-size: 16px;
 }
 
+.pictures{
+    position: absolute;
+    width: 377px;
+    height: 402px;
+    left: 1400px;
+    top: 226px;
+}
+
+.help{
+display: flex;
+padding-top: 50px;
+}
+
+.consultcard {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+
+    width: 270px;
+    height: 180px;
+    margin: 0;
+    border: 1px solid rgba(47, 43, 67, 0.15);
+    border-radius: 20px;
+}
+
+.consultinfo {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #140A32;
+}
+.consultnumber {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #140A32;
+}
+.consultserver {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #33836E;
+}
