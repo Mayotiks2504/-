@@ -21,11 +21,12 @@ body {
     border: none;
     font-size: 16px;
 }
+
 .contact {
     display: block;
 }
 
-.contact-info{
+.contact-info {
     color: #b3b3b3;
 }
 
@@ -35,16 +36,16 @@ body {
     display: block;
 }
 
-.seacrh{
+.seacrh {
     width: 427px;
     border: none;
     font-size: 16px;
-    background-color:rgb(238, 238, 238) ;
+    background-color: rgb(238, 238, 238);
     border-radius: 10px;
     padding: 10px;
 }
 
-.menu{
+.menu {
     display: flex;
     margin-top: 40px;
     gap: 30px;
@@ -53,24 +54,25 @@ body {
     align-items: center;
 }
 
-.menu a{
+.menu a {
     text-decoration: none;
     color: black;
 }
 
 
-.menu-border{
+.menu-border {
     border: 1px solid rgb(224, 224, 224);
     border-radius: 10px;
     padding: 10px 20px;
 }
 
-.box1 a{
+.box1 a {
     text-decoration: none;
     color: #2F2B4380;
 
 }
-.box{
+
+.box {
     margin: 40px 0px;
 }
 
@@ -101,9 +103,9 @@ body {
 .boxing {
     width: 657px;
 }
-.text_1 {
-    height: 104px;
-}
+
+
+
 .text_write {
     height: 78px;
 }
@@ -113,6 +115,7 @@ body {
     display: flex;
     gap: 30px;
 }
+
 .ask_text {
     width: 253px;
     padding: 10px 20px;
@@ -122,9 +125,11 @@ body {
     border: none;
     font-size: 16px;
 }
+
 .first_box2 {
     display: block;
 }
+
 .contact1 {
     color: #33836E;
     font-weight: bold;
@@ -132,6 +137,7 @@ body {
     display: block;
     text-decoration: underline;
 }
+
 .ask_contact_box2 {
     font-size: 12px;
     color: #2F2B43;
@@ -143,21 +149,18 @@ body {
     align-items: center;
     gap: 30px;
 }
+
 .href_box3 {
     font-size: 16px;
 }
 
-.pictures{
+.pictures {
     position: absolute;
     width: 377px;
     height: 402px;
     left: 1400px;
     top: 226px;
-}
 
-.help{
-display: flex;
-padding-top: 50px;
 }
 
 .consultcards {
@@ -187,12 +190,14 @@ padding-top: 50px;
     line-height: 22px;
     color: #140A32;
 }
+
 .consultnumber {
     font-weight: 700;
     font-size: 20px;
     line-height: 27px;
     color: #140A32;
 }
+
 .consultserver {
     font-style: normal;
     font-weight: 600;
@@ -209,9 +214,7 @@ padding-top: 50px;
     margin-top: 50px;
 }
 
-.help_opat {
-    margin-top: 50px;
-}
+
 
 
 .text_pro_stasiu {
@@ -224,31 +227,15 @@ padding-top: 50px;
     padding: 30px;
 }
 
-.boxxx1{
+.boxxx1 {
     display: flex;
     margin-top: 20px;
     padding: 0px;
     gap: 20px;
 }
 
-/* Frame 31
 
-/* Auto layout */
-/* display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-align-items: flex-start;
-align-content: flex-start;
-padding: 0px;
-gap: 20px;
-
-position: absolute;
-width: 1140px;
-height: 380px;
-left: 0px;
-top: 74px; */
-
-.nastin_box {
+/* .nastin_box {
 }
 .help_stasin {
     margin-top: 50px;
@@ -264,13 +251,268 @@ top: 74px; */
     font-size: 16px;
     color: #140A32;
 }
-.nadoel_box {
+ */
+
+.Advantages {
+    width: 1140px;
+    height: 585px;
+
 }
-.tisaha {
+
+.AdvantagesTitle {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    
 }
-.box_nast {
+
+.AdvantagesText {
+    width: 560px;
+    height: 104px;
+    left: 0px;
+    top: 93px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
 }
-.box_nast1 {
+
+.AdvantagesPlus {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    width: 469px;
+    height: 70px;
+    left: 0px;
+    top: 227px
 }
-.galery {
+
+.AdvantagesPlusTitle {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    color: #33836E;
 }
+
+.AdvantagesPlusText {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.Advantages {
+    display: flex;
+    flex-direction: column;
+}
+
+.AdvantagesElements {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Specialties {
+    display: flex;
+    flex-direction: column;
+}
+
+.SpecialtiesCards {
+    display: flex;
+    padding: 20px;
+    gap: 15px;
+    border: 1px solid rgba(47, 43, 67, 0.15);
+    border-radius: 20px;
+}
+
+.SpecialtiesCardTitle {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.SpecialtiesLine {
+    width: 167px;
+    border: 1px solid #33836E;
+}
+
+.SpecialtiesCardTitleText {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.SpecialtiesCardTitleLineText {
+    padding-left: 10px;
+}
+
+.SpecialtiesCardText {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #2F2B43B2;
+        display: flex;
+    flex-direction: column;
+}
+
+.tres{
+    display: flex;
+    flex-direction: column;
+}
+
+.SpecialtiesCard {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* .QuestionCard {
+position: absolute;
+width: 1140px;
+height: 200px;
+left: 600px;
+top: 4390px;
+
+background: rgba(47, 43, 67, 0.04);
+border-radius: 20px;
+}
+
+.QuestionCardText {
+position: absolute;
+width: 295px;
+height: 88px;
+left: 53px;
+top: 18px;
+font-family: 'Open Sans';
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+color: #140A32;
+}
+
+.QuestionCardButtons {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+gap: 15px;
+position: absolute;
+width: 423px;
+height: 56px;
+left: 389px;
+top: 57px;
+}
+
+.QuestionCardFirstButton {
+    /* button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 7px 16px 8px;
+gap: 3px;
+
+width: 201px;
+height: 56px;
+
+background: #FFFFFF;
+border: 1px solid rgba(47, 43, 67, 0.15);
+border-radius: 10px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.QuestionCardSecondButton {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 36px 18px;
+gap: 10px;
+
+width: 207px;
+height: 56px;
+
+border: none;
+color: white;
+background: #33836E;
+border-radius: 10px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.QuestionCardSecondText {
+position: absolute;
+width: 293px;
+height: 32px;
+top: 65px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+
+color: rgba(47, 43, 67, 0.4);
+}
+
+.QuestionCardSecondTextHref {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+color: rgba(47, 43, 67, 0.4);
+}
+
+.QuestionCardImg {
+    position: absolute;
+    left: 840px;
+}
+
+.SEOTextBlock {
+display: flex;
+flex-direction: column;
+gap: 10px;
+position: absolute;
+width: 1140px;
+height: 290px;
+left: 600px;
+top: 4660px;
+}
+
+.SEOTextTitle {
+font-family: 'Open Sans';
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+
+}
+
+.SEOText {
+font-family: 'Open Sans';
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+}
+
+.SEOTextButton {
+padding: 16px 36px 18px;
+gap: 10px;
+background: #E0ECE9;
+border-radius: 10px;
+border: none;
+color: #33836E;
+font-family: 'Open Sans';
+font-weight: 600;
+font-size: 16px;
+} */
+
