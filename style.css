@@ -75,6 +75,10 @@ body {
 .box {
     margin: 40px 0px;
 }
+.box1 {
+    width: 657px;
+}
+
 
 .heaving {
     width: 657px;
@@ -155,7 +159,6 @@ body {
 }
 
 .pictures {
-    position: absolute;
     width: 377px;
     height: 402px;
     left: 1400px;
@@ -324,6 +327,8 @@ body {
     gap: 15px;
     border: 1px solid rgba(47, 43, 67, 0.15);
     border-radius: 20px;
+    width: 560px;
+    height: 200px;
 }
 
 .SpecialtiesCardTitle {
@@ -369,124 +374,59 @@ body {
 }
 
 
-/* .QuestionCard {
-position: absolute;
-width: 1140px;
-height: 200px;
-left: 600px;
-top: 4390px;
 
-background: rgba(47, 43, 67, 0.04);
-border-radius: 20px;
-}
-
-.QuestionCardText {
-position: absolute;
-width: 295px;
-height: 88px;
-left: 53px;
-top: 18px;
-font-family: 'Open Sans';
-font-weight: 700;
-font-size: 32px;
-line-height: 44px;
-color: #140A32;
-}
-
-.QuestionCardButtons {
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-gap: 15px;
-position: absolute;
-width: 423px;
-height: 56px;
-left: 389px;
-top: 57px;
-}
-
-.QuestionCardFirstButton {
-    /* button */
-
-box-sizing: border-box;
-
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-padding: 7px 16px 8px;
-gap: 3px;
-
-width: 201px;
-height: 56px;
-
-background: #FFFFFF;
-border: 1px solid rgba(47, 43, 67, 0.15);
-border-radius: 10px;
-flex: none;
-order: 0;
-flex-grow: 0;
-}
 
 .QuestionCardSecondButton {
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 16px 36px 18px;
-gap: 10px;
-
-width: 207px;
-height: 56px;
-
-border: none;
-color: white;
-background: #33836E;
-border-radius: 10px;
-
-flex: none;
-order: 1;
-flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 36px 18px;
+    gap: 10px;
+    width: 207px;
+    height: 56px;
+    border: none;
+    color: white;
+    background: #33836E;
+    border-radius: 10px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
 .QuestionCardSecondText {
-position: absolute;
-width: 293px;
-height: 32px;
-top: 65px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 16px;
+    width: 293px;
+    height: 32px;
+    top: 65px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
 
-color: rgba(47, 43, 67, 0.4);
+    color: rgba(47, 43, 67, 0.4);
 }
 
 .QuestionCardSecondTextHref {
-    font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 16px;
-color: rgba(47, 43, 67, 0.4);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(47, 43, 67, 0.4);
 }
 
 .QuestionCardImg {
-    position: absolute;
     left: 840px;
 }
 
 .SEOTextBlock {
-display: flex;
-flex-direction: column;
-gap: 10px;
-position: absolute;
-width: 1140px;
-height: 290px;
-left: 600px;
-top: 4660px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 1140px;
+    height: 290px;
+    left: 600px;
+    top: 4660px;
 }
 
 .SEOTextTitle {
@@ -514,5 +454,19 @@ color: #33836E;
 font-family: 'Open Sans';
 font-weight: 600;
 font-size: 16px;
-} */
+}
 
+.delat {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.AdvantageStoto {
+    display: flex;
+    gap: 20px;
+}
+
+.box_ {
+    display: flex;
+    justify-content: space-between;
+}
